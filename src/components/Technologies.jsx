@@ -1,8 +1,10 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
+import { SiCplusplus, SiMongodb } from "react-icons/si";
+import { FaNodeJs, FaPython } from "react-icons/fa";
+import { BiLogoJava, BiLogoPostgresql } from "react-icons/bi";
+import { SiJavascript } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -13,7 +15,7 @@ const iconVariants = (duration) => ({
       duration: duration,
       ease: "linear",
       repeat: Infinity,
-      repeatType: "reverse", // Corrected the typo here
+      repeatType: "reverse",
     },
   },
 });
@@ -74,6 +76,47 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <BiLogoPostgresql className="text-7xl text-sky-700" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiJavascript className="text-7xl" style={{ color: "#F0DB4F" }} />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaAws className="text-7xl" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaPython
+            className="text-7xl"
+            style={{
+              color: "#306998",
+              backgroundImage:
+                "linear-gradient(180deg, #306998 50%, #FFD43B 50%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiCplusplus className="text-7xl" style={{ color: "#044F88" }} />
         </motion.div>
       </motion.div>
     </div>

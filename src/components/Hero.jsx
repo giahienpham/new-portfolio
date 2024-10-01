@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/avatar.png";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -37,7 +37,7 @@ const Hero = () => {
               variants={container(1.5)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light"
+              className="my-2 max-w-xl py-6 text-lg text-justify"
             >
               {HERO_CONTENT}
             </motion.p>
@@ -51,6 +51,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 1.6 }}
               src={profilePic}
               alt="profilePic"
+              className="max-w-xl"
             />
           </div>
         </div>

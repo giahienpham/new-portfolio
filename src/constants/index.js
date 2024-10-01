@@ -9,32 +9,52 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "May 2024 – Aug 2024",
+    role: "Software Development Intern",
+    company: "FPT Information and System",
+    description: [
+      "Developed backend features using Jmix, Spring Boot to monitor and secure 4,000+ daily bank transactions. ",
+      "Reduced report load times by 2 minutes (80%) through SQL optimizations. ",
+      "Integrated GitLab and Kubernetes CI/CD pipelines, enhancing app deployment time by 60%. ",
+      "Deployed Algolia search service into a 4-node Kubernetes cluster, reducing Oracle database server traffic by 25%. ",
+    ],
+    technologies: [
+      "Jmix",
+      "Kubernetes",
+      "CI/CD",
+      "Spring Boot",
+      "SQL",
+      "Oracle",
+    ],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "Jan 2024 – Apr 2024",
+    role: "Software Engineer Intern",
+    company: "Brigham and Women's Hospital",
+    description: `Involved as Assistant Lead Engineer and Full stack Developer in Agile team, managing daily Scrums using Jira. Developed 50+ RESTful APIs with Express and Auth0, and built an interactive Python/Flask chatbot using PyTorch for machine learning to assist hospital users with service requests and directional information. Deployed and hosted application on AWS, serving 1,000+ users, focusing on scalability and performance`,
+    technologies: [
+      "HTML",
+      "CSS",
+      "Nodejs",
+      "mySQL",
+      "Python",
+      "Flask",
+      "AWS",
+      "Express",
+      "Agile",
+    ],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Mar 2024 – Present",
+    role: "Teaching Assistant",
+    company: "Worcester Polytechnic Institute",
+    description: `Hosted office hours, assisting 50+ students with programming, software issues, troubleshooting, and assignments. Mentored a team of 10 students, fostering collaboration and problem-solving for software engineering final project`,
+    technologies: [
+      "Problem-solving",
+      "Troubleshooting",
+      "Mentoring",
+      "Programming",
+    ],
   },
 ];
 
@@ -44,7 +64,9 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["Angular", "Express", "Nodejs", "TypeScript"],
+    sourceCode: "https://github.com/giahienpham/shop-app",
+    liveUrl: "https://shop-app-six-nu.vercel.app",
   },
   {
     title: "Task Management App",
@@ -52,25 +74,39 @@ export const PROJECTS = [
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    sourceCode: "#",
+    liveUrl: "#",
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "React", "JavaScript"],
+    sourceCode: "#",
+    liveUrl: "#",
   },
   {
-    title: "Blogging Platform",
+    title: "MERN Blogging Platform",
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Express",
+      "TypeScript",
+      "Redux",
+      "Firebase",
+    ],
+    sourceCode: "https://github.com/giahienpham/blog-app",
+    liveUrl: "https://blog-app-wzu2.onrender.com",
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
+  address: "143 Institute Road, Worcester, MA 01602",
   phoneNo: "+1 (774)-418 5088 ",
   email: "giahien14606@gmail.com",
 };
