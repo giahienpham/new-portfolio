@@ -48,7 +48,7 @@ export const EXPERIENCES = [
     ],
   },
   {
-    year: "Mar 2024 – Present",
+    year: "Mar 2023 – Present",
     role: "Teaching Assistant",
     company: "Worcester Polytechnic Institute",
     description: `Hosted office hours, assisting 50+ students with programming, software issues, troubleshooting, and assignments. Mentored a team of 10 students, fostering collaboration and problem-solving for software engineering final project`,
@@ -62,38 +62,6 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-  {
-    title: "E-Commerce Website",
-    image: project1,
-    description: `A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.
-
-- Built RESTful APIs with Node.js and Express to handle user authentication, product listings, cart management, and order processing.
-- Integrated Stripe API for secure payment processing and managed image storage with AWS S3.
-- Designed and implemented a responsive and user-friendly interface using Angular, leveraging Angular Material.
-- Implemented a microservices architecture with Docker and Kubernetes for scalable deployment.
-  `,
-    technologies: ["Angular", "Express", "Nodejs", "TypeScript"],
-    sourceCode: "https://github.com/giahienpham/shop-app",
-    liveUrl: "https://shop-app-six-nu.vercel.app",
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-    sourceCode: "#",
-    liveUrl: "#",
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "JavaScript"],
-    sourceCode: "https://github.com/giahienpham/new-portfolio",
-    liveUrl: "https://portfolio-phi-one-79.vercel.app",
-  },
   {
     title: "MERN Blogging Platform",
     image: project4,
@@ -115,6 +83,38 @@ export const PROJECTS = [
     ],
     sourceCode: "https://github.com/giahienpham/blog-app",
     liveUrl: "https://blog-app-wzu2.onrender.com",
+  },
+  {
+    title: "E-Commerce Website",
+    image: project1,
+    description: `A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.
+
+- Built RESTful APIs with Node.js and Express to handle user authentication, product listings, cart management, and order processing.
+- Integrated Stripe API for secure payment processing and managed image storage with AWS S3.
+- Designed and implemented a responsive and user-friendly interface using Angular, leveraging Angular Material.
+- Implemented a microservices architecture with Docker and Kubernetes for scalable deployment.
+  `,
+    technologies: ["Angular", "Express", "Nodejs", "TypeScript"],
+    sourceCode: "https://github.com/giahienpham/shop-app",
+    liveUrl: "https://shop-app-six-nu.vercel.app",
+  },
+  {
+    title: "Portfolio Website",
+    image: project3,
+    description:
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["HTML", "CSS", "React", "JavaScript"],
+    sourceCode: "https://github.com/giahienpham/new-portfolio",
+    liveUrl: "https://portfolio-phi-one-79.vercel.app",
+  },
+  {
+    title: "Task Management App",
+    image: project2,
+    description:
+      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    sourceCode: "#",
+    liveUrl: "#",
   },
 ];
 
