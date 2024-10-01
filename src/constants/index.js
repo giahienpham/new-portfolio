@@ -5,9 +5,9 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I'm Hien Pham, a Fullstack Developer and a junior at Worcester Polytechnic Institute majoring in Computer Science and Bioinformatics, graduating in May 2026. With solid experience in front-end and back-end development, I’ve built a strong foundation in creating dynamic, user-focused applications using technologies like Python, Java, React, Kubernetes, and AWS. I’m also experienced in integrating CI/CD pipelines into the software development lifecycle, improving deployment efficiency and overall project workflow.` 
+export const ABOUT_TEXT = `I'm Hien Pham, a Fullstack Developer and a junior at Worcester Polytechnic Institute majoring in Computer Science and Bioinformatics, graduating in May 2026. With solid experience in front-end and back-end development, I’ve built a strong foundation in creating dynamic, user-focused applications using technologies like Python, Java, React, Kubernetes, and AWS. I’m also experienced in integrating CI/CD pipelines into the software development lifecycle, improving deployment efficiency and overall project workflow.`;
 
-export const ABOUT_TEXT2 =`I’m passionate about building innovative software solutions and applying my skills to solve real-world problems. My background in computer science equips me with the technical expertise necessary for software engineering roles, while my studies in biotechnology give me a unique perspective in tackling interdisciplinary challenges, particularly in AI and healthcare technology. I’m actively seeking a summer 2024 internship where I can contribute to impactful projects and continue growing in software engineering and bioinformatics.
+export const ABOUT_TEXT2 = `I’m passionate about building innovative software solutions and applying my skills to solve real-world problems. My background in computer science equips me with the technical expertise necessary for software engineering roles, while my studies in biotechnology give me a unique perspective in tackling interdisciplinary challenges, particularly in AI and healthcare technology. I’m actively seeking a summer 2024 internship where I can contribute to impactful projects and continue growing in software engineering and bioinformatics.
 `;
 
 export const EXPERIENCES = [
@@ -65,8 +65,13 @@ export const PROJECTS = [
   {
     title: "E-Commerce Website",
     image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    description: `A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.
+
+- Built RESTful APIs with Node.js and Express to handle user authentication, product listings, cart management, and order processing.
+- Integrated Stripe API for secure payment processing and managed image storage with AWS S3.
+- Designed and implemented a responsive and user-friendly interface using Angular, leveraging Angular Material.
+- Implemented a microservices architecture with Docker and Kubernetes for scalable deployment.
+  `,
     technologies: ["Angular", "Express", "Nodejs", "TypeScript"],
     sourceCode: "https://github.com/giahienpham/shop-app",
     liveUrl: "https://shop-app-six-nu.vercel.app",
@@ -86,14 +91,19 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "JavaScript"],
-    sourceCode: "#",
-    liveUrl: "#",
+    sourceCode: "https://github.com/giahienpham/new-portfolio",
+    liveUrl: "https://portfolio-phi-one-79.vercel.app",
   },
   {
     title: "MERN Blogging Platform",
     image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+    description: `A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.
+
+- Developed a blog app using Google OAuth and Firebase for secure user authentication and personalized content
+- Built RESTful APIs with Express and DOM, supporting user management, creation/editing, and photo uploads
+- Implemented Redux Toolkit, and MongoDB for data management, ensuring seamless UI/UX across sessions
+- Employed GraphQL and Apollo Server to optimize data fetching and improve application performance
+      `,
     technologies: [
       "React",
       "Node.js",

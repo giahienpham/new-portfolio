@@ -59,7 +59,10 @@ const Projects = () => {
                   </a>
                 )}
               </h6>
-              <p className="mb-4 text-neutral-400">{project.description}</p>
+              {/* Updated line */}
+              <p className="mb-4 text-neutral-400 whitespace-pre-wrap">
+                {project.description}
+              </p>
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
